@@ -303,7 +303,7 @@
 </style>
 
 <!-- Toolbar -->
-<div class="toolbar" role="banner">
+<div class="toolbar" role="banner" tourAnchor="bannerId">
   <img
     width="40"
     alt="Angular Logo"
@@ -325,7 +325,7 @@
     </a>
 </div>
 
-<div class="content" role="main">
+<div class="content" role="main" tourAnchor="mainId">
 
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
@@ -473,6 +473,8 @@
 
 </div>
 
+<button type="button" (click)="start()" tourAnchor="start.tour">Start</button>
+<tour-step-template></tour-step-template>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -480,4 +482,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
